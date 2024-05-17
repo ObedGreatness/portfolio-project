@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![appimage](image1.jpg)
 ## Portfolio Project: Weather App
 
@@ -256,4 +255,3 @@ Algorithms: Develop algorithms to analyze and reconcile data from different sour
 Conclusion
 By understanding the landscape of existing weather apps and their approaches, you can identify gaps and opportunities for your app. Focusing on data aggregation and hyper-local forecasting allows you to offer a unique value proposition: highly accurate, localised weather information. This strategy leverages proven solutions while addressing specific user needs for precision and reliability.
 
->>>>>>> 60a335f7a58dd00fb81266b9b7525409b0549c8f
