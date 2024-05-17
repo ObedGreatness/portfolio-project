@@ -32,6 +32,54 @@
     .header{
         color: green;
     }
+    .usercoment {
+    width: 50%;
+    max-width: 600px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.usercoment h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.usercoment input[type="text"],
+.usercoment input[type="email"],
+.usercoment textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.usercoment textarea {
+    height: 150px; /* Adjust this value as needed */
+    resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+.usercoment button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.usercoment button:hover {
+    background-color: #0056b3;
+}
+
 </style>
 </head>
 
@@ -44,6 +92,15 @@
         <button onclick="getWeather()">Get Weather</button>
         <div id="weatherInfo"></div>
     </div>
+
+    <div class="usercoment">
+        <h1 class="header">Share your comment with us!</h1>
+        <input type="text" id="fname" placeholder="Enter your first name" required>
+        <input type="email" id="email" placeholder="Enter your email address" required><br><br>
+        <textarea id="textarea" placeholder="Enter your comment here" required></textarea><br><br>
+        <button type="submit">Submit</button>
+    </div>
+    
 
     <script>
         function getWeather() {
