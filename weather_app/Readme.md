@@ -1,4 +1,4 @@
-![appimage](image.jpg)
+![appimage](image1.jpg)
 ## Portfolio Project: Weather App
 
 ### Tagline: Research and Project Approval
